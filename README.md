@@ -4,6 +4,8 @@ Draw what your heart desires with this full stack application. You are able to c
 
 [Link to project](https://majestic-stroopwafel-d9a010.netlify.app/)
 
+![Screen Shot 2022-05-30 at 10 24 17 AM](https://user-images.githubusercontent.com/101071525/171013309-2cfec076-f87c-4016-86f6-cd0784bb88fe.png)
+
 ## Table of Contents 
 1. Built With 
 2. What is learned 
