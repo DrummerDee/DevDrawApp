@@ -13,7 +13,7 @@ Draw what your heart desires with this full stack application. You are able to c
 6. Node Dependencies
 
 ## Built With 
-* [Node.js (https://nodejs.org/en/about/)]
+* Node.js
 * Html
 * CSS
 * Javascript
@@ -26,5 +26,5 @@ Here are the instructions to install and set up this project locally. To get a l
 
 ### Prerequisites
 How to install node on your computer 
-* Go to [node.js(https://nodejs.org/en/)]
+* Go to [node.js](https://nodejs.org/en/)
 * Once node is installed on your computer, 
