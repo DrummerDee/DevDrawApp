@@ -1,2 +1,1 @@
-# DrawingApp
-Dev drawing app 
+About The Project
