@@ -1,0 +1,36 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    color: white;
+  }
+  
+  .container {
+    height: 100%;
+    width: auto;
+    display: flex;
+  }
+  #toolbar {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    width: 85px;
+    background-color: plum;
+  }
+  #toolbar * {
+    margin-bottom: 2%;
+  }
+  #toolbar label {
+    font-size: 1rem;
+  }
+  
+  #toolbar button {
+    background-color: purple;
+    border: none;
+    border-radius: 5%;
+    color: white;
+    padding: 5%;
+  }
+  
