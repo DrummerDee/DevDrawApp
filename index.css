@@ -1,12 +1,2 @@
 body{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-}
-.container{
-    background-color: yellow;
-    margin: 25% auto;
-    padding-left: 10%;
-    padding-right: 10%;
-
 }
