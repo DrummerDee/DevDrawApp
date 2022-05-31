@@ -1,4 +1,3 @@
-
 const canvas = document.getElementById('drawing-board');
 const ctx = canvas.getContext('2d');
 const toolbar = document.getElementById('toolbar');
@@ -7,22 +6,22 @@ const save = document.getElementById('save-to-local-storage');
 const canvasOffsetX = canvas.offsetLeft;
 const canvasOffsetY = canvas.offsetTop;
 
-var url = canvas.toDataURL();
+/*var url = canvas.toDataURL();
 localStorage.setItem('url', url);
 var toDrawUrl = localStorage.getItem('url');
 drawDataURIOnCanvas(toDrawUrl, ctx);
 ctx.fillStyle = "rgb(200,200,0)";
-ctx.fillRect (20, 20, 55, 50);
+ctx.fillRect (20, 20, 55, 50);*/
 
 
-function drawDataURIOnCanvas(strDataURI, context) {
+/*function drawDataURIOnCanvas(strDataURI, context) {
     "use strict";
     var img = new window.Image();
     img.addEventListener("load", function () {
         context.drawImage(img, 0, 0);
     });
     img.setAttribute("src", strDataURI);
-}
+}*/
 
 canvas.width = window.innerWidth - canvasOffsetX;
 canvas.height = window.innerHeight - canvasOffsetY;
@@ -71,3 +70,13 @@ canvas.addEventListener('mouseup', (e) =>{
 });
 
 canvas.addEventListener('mousemove',draw);
+
+// Mobile responsive code //
+/*@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}*/
+canvas.addEventListener('touchstart',draw);
+canvas.addEventListener('touchmove',draw);
