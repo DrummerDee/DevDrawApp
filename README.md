@@ -1,18 +1,29 @@
-## Drawing With Devs
-### About Project
-Draw what your heart desires with this full stack application. You are able to change the color and line width of your stroke with just a click of a button! 
+<h1 align="center">Dev Draw </h1>
 
-![Screen Shot 2022-05-30 at 10 24 17 AM](https://user-images.githubusercontent.com/101071525/171013309-2cfec076-f87c-4016-86f6-cd0784bb88fe.png)
 
-[Link to project](https://majestic-stroopwafel-d9a010.netlify.app/)
+
+<div align ="center"> 
+  <h3 style="italic">Draw what your heart desires with this full stack application.</h3>
+
+
+![updatedDevDraw-2](https://user-images.githubusercontent.com/101071525/171235459-d14a068c-6269-47a9-b482-f31941df7030.png)
+
+
+[Link to project](https://devdraw.netlify.app/)
+</div>
 
 ## Table of Contents 
+
 1. Built With 
-2. What is learned 
-3. How to Install
-4. Optimizations
-5. Usage 
-6. Node Dependencies
+3. Built-in tools
+4. Upcoming tools
+5. Features
+6. What was learned 
+7. Optimizations
+8. Node Dependencies
+9. Prerequisities
+
+
 
 ## Built With 
 * Node.js
@@ -20,13 +31,38 @@ Draw what your heart desires with this full stack application. You are able to c
 * CSS
 * Javascript
 
-## What is learned 
-* With this project, you are able to create your own server that is able to recieve input from the user and responsd on the server side. 
+## Built-in tools
+* `marker` --- draw markers
+* `lineWidth` --- set line width
+* `colorsPicker` --- background and foreground colors picker
+* `undo` --- undo recent shapes
+* `clear` --- clears entire canvas drawing
 
-## How to install
-Here are the instructions to install and set up this project locally. To get a local copy follow the steps. 
+# Upcoming tools
 
-### Prerequisites
-How to install node on your computer 
-* Go to [node.js](https://nodejs.org/en/)
-* Once node is installed on your computer, 
+* Allow users to screenshot their images and automatically save onto their computer
+* Implement additional toolbar features (arrows, shapes, pencil,lines).
+
+## Features
+
+* Draw single or multiple strokes of any kind (according to toolbox)
+* Resize line-width to the user's preference
+* Undo drawings at the click of a button, with our built in feature 
+* Clear the entire canvas at the click of a button, with our built in feature 
+* A color wheel with 100's of shades to create the most coloful drawings
+* Built-in mobile responsive feature that allows you to draw from any phone screen
+
+## What was learned 
+* With this project, you are able to create your own art through a collaborative canvas with numerous features. Through the use of javascript, node.js, html and css, we were able to bring this canvas to life and as simple as possible for users to use.  
+
+### Optimizations
+* Adding media queries to enhance the application's responsive web design
+* Implementing new toolbar features to facilitate a variety of drawing techniques
+* Adding a save button that allows users to save their drawings to their devices
+* Including image urls where users can grab their image embedded code
+
+## Prerequisites 
+<h3> Install node.js</h3>
+Steps to install [node](https://nodejs.org/en/) 
+-
+  
