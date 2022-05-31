@@ -36,9 +36,9 @@ Draw what your heart desires with this full stack application. You are able to c
 
 # Features
 
-1. Draw single or multiple shapes of any kind (according to toolbox)
+1. Draw single or multiple strokes of any kind (according to toolbox)
 2. Resize line-width to the user's preference
-3. Undo drawings using at the click of a button, with our built in feature 
+3. Undo drawings at the click of a button, with our built in feature 
 4. Clear the entire canvas at the click of a button, with our built in feature 
 5. A color wheel with 100's of shades to create the most coloful drawings
 6. Built-in mobile responsive feature that allows you to draw from any phone screen
