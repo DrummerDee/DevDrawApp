@@ -61,6 +61,14 @@
 * Adding a save button that allows users to save their drawings to their devices
 * Including image urls where users can grab their image embedded code
 
+## Node Dependencies
+"dependencies": {  <br> 
+          "express": "^4.18.1",  <br> 
+          "figlet": "^1.5.2",  <br> 
+          "save": "^2.5.0",  <br> 
+          "socket.io": "^4.5.1"  <br> 
+         } 
+
 ## Prerequisites 
 <h3> Install node.js</h3>
 Steps to install [node](https://nodejs.org/en/) 
