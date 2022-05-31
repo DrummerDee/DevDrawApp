@@ -20,6 +20,7 @@ body {
   margin-top:50px; 
   background: rgb(127,127,213);
   background: linear-gradient(90deg, rgba(127,127,213,1) 0%, rgba(134,168,231,1) 35%, rgba(145,234,228,1) 100%);
+  overflow: hidden;
 
 }
 div{
