@@ -14,23 +14,22 @@
 <body>
     <div><h1>Draw!</h1></div>
 <center><canvas id="canvas"></canvas></center>
-      <div class="tools">
-        <button onclick="Restore()"><i class="fa-solid fa-rotate-left"></i></button>
-        <button onclick="Clear()"><i class="fa-solid fa-xmark"></i></button>
+      <div class="tools" class="tooltip">
+        <button id="go-back" onclick="Restore()"><i class="fa-solid fa-rotate-left"></i></button>
+        <button id="clear" onclick="Clear()"><i class="fa-solid fa-xmark"></i></button>
         <div onclick="change_color(this)" class="stroke-color" style="background: #be5e6b"></div>
         <div onclick="change_color(this)" class="stroke-color" style="background:#b8cbfd"></div>
         <div onclick="change_color(this)" class="stroke-color" style="background:#d7bfcb"></div>
         <div onclick="change_color(this)" class="stroke-color" style="background:#eea5a7"></div>
-       
+
         <input type="color" 
         oninput="stroke_color = this.value">
         <input type="range" min="1" max="100" class="pen-range"
         oninput="stroke_width = this.value">
-   
+
       </div>
     </div>
     <script src="main.js"></script>
-    
 
 </body>
 </html>
