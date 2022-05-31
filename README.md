@@ -2,8 +2,6 @@
 ### About Project
 Draw what your heart desires with this full stack application. You are able to change the color and line width of your stroke with just a click of a button! 
 
-![Screen Shot 2022-05-30 at 10 24 17 AM](https://user-images.githubusercontent.com/101071525/171013309-2cfec076-f87c-4016-86f6-cd0784bb88fe.png)
-
 [Link to project](https://majestic-stroopwafel-d9a010.netlify.app/)
 
 ## Table of Contents 
@@ -25,6 +23,8 @@ Draw what your heart desires with this full stack application. You are able to c
 
 ## How to install
 Here are the instructions to install and set up this project locally. To get a local copy follow the steps. 
+
+## Optimizations 
 
 ### Prerequisites
 How to install node on your computer 
