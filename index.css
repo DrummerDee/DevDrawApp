@@ -7,12 +7,15 @@ body{
     background: linear-gradient(90deg, rgba(127,127,213,1) 0%, rgba(134,168,231,1) 35%, rgba(145,234,228,1) 100%);
 }
 
-h1, h3{
+.titles{
     text-align: center;
+    position: relative;
+    bottom: -40px;
 }
 
 .container > h3{
     text-decoration: underline;
+    text-align: center;
 }
 
 .container{
@@ -22,9 +25,12 @@ h1, h3{
     margin:0px auto;
     margin-top: 100px;
     padding: 20px;
-    background-color: lightblue;
+    background: linear-gradient(10deg, #63e0d5, #9254ffb3);;
     width: 550px;
     border-radius: 20px;
+    font-weight: 700;
+    border: solid #000000;
+    box-shadow: -3px 2px 9px 6px #963fff9c;
 }
 
 /* Button */
