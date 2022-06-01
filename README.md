@@ -56,10 +56,11 @@
 * With this project, you are able to create your own art through a collaborative canvas with numerous features. Through the use of javascript, node.js, html and css, we were able to bring this canvas to life and as simple as possible for users to use.  
 
 ### Optimizations
-* Adding media queries to enhance the application's responsive web design
+* Adding media queries to enhance the application's responsive web design on the homepage
 * Implementing new toolbar features to facilitate a variety of drawing techniques
 * Adding a save button that allows users to save their drawings to their devices
 * Including image urls where users can grab their image embedded code
+* Using browser developer tools that help to debug browser compatability tests
 
 ## Prerequisites 
 <h3> Install node.js</h3>
