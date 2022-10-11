@@ -6,7 +6,7 @@
   <h3 style="italic">Draw what your heart desires with this full stack application.</h3>
 
 
-![updatedDevDraw-2](https://user-images.githubusercontent.com/101071525/171235459-d14a068c-6269-47a9-b482-f31941df7030.png)
+![Screen Shot 2022-09-09 at 10 01 23 AM](https://user-images.githubusercontent.com/101071525/195186529-6dae708a-1397-4c5d-ba48-9298dac2d2dc.png)
 
 
 [Link to project](https://devdraw.netlify.app/)
